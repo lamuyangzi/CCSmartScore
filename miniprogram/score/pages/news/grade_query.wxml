@@ -1,0 +1,34 @@
+<view wx:if="{{isLoad===null}}" class="margin-top load notexist text-l text-darkgreen color-skin1"></view>
+<view wx:if="{{isLoad===false}}" class="margin-top load loading text-l text-darkgreen color-skin1"></view>
+
+<view class="main main-info-add main-skin1" wx:if="{{isLogin&&isLoad}}">
+	<form bindsubmit="bindFormSubmit">
+		<view class="padding text-x text-xxl text-center">
+			《{{news.NEWS_TITLE}}》
+		</view>
+		<view class="form-box shadow">
+			<view class="form-group">
+				<view class="title">姓名</view>
+				<input placeholder="您的姓名" maxlength="50" placeholder-class="phc" model:value="{{formName}}"
+					focus="{{formNameFocus}}"></input>
+			</view> 
+			<view class="form-group">
+				<view class="title">学号</view>
+				<input placeholder="您的学号" maxlength="50" placeholder-class="phc" model:value="{{formNum}}"
+					focus="{{formNumFocus}}"></input>
+			</view>
+
+			<view wx:if="{{isQ&&score}}" class="form-group text-blue">
+				<view class="title">您的成绩：{{score}}</view>
+				
+			</view>
+
+		</view> 
+
+		<view class="padding-bottom flex  flex-direction  ">
+			<button bindtap="bindFormSubmit" class="btn bg-darkgreen margin-top-s text-bold large bg-skin1 ">查询成绩</button>
+		</view>
+
+
+	</form>
+</view>

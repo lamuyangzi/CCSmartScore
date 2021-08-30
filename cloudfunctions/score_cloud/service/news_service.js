@@ -72,7 +72,7 @@ class NewsService extends BaseCCMiniService {
 			'NEWS_ORDER': 'asc',
 			'NEWS_ADD_TIME': 'desc'
 		};
-		let fields = 'NEWS_PIC,NEWS_VIEW_CNT,NEWS_TITLE,NEWS_DESC,NEWS_ADD_TIME,NEWS_ORDER,NEWS_STATUS';
+		let fields = 'NEWS_CATE,NEWS_PIC,NEWS_VIEW_CNT,NEWS_TITLE,NEWS_DESC,NEWS_ADD_TIME,NEWS_ORDER,NEWS_STATUS';
 
 		let where = {};
 		where.NEWS_STATUS = 1; // 状态 

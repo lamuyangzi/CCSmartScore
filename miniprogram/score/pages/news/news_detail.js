@@ -12,6 +12,7 @@ Page({
 	 */
 	data: {
 		isLoad: false,
+		title: ''
 	},
 
 	/**
@@ -48,6 +49,7 @@ Page({
 		this.setData({
 			isLoad: true,
 			news,
+			title: encodeURIComponent(news.NEWS_TITLE)
 
 		});
 

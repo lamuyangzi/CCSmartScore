@@ -21,7 +21,8 @@
 		"score/pages/about/hint",
 		"score/pages/admin/news/admin_grade_import",
 		"score/pages/admin/news/admin_grade_list",
-		"score/pages/news/grade_query"
+		"score/pages/news/grade_query",
+		"score/pages/admin/news/admin_grade_demo"
 	],
 	"window": {
 		"backgroundColor": "#f1f1f1",

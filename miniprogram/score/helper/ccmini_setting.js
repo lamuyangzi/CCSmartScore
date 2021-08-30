@@ -12,7 +12,7 @@
   	PROJECT_IS_SUB: false, // 分包
   	PROJECT_NAME: 'CC通用成绩查询小程序',
   	PROJECT_VER: 'CCScore-Cli(V1.3 Build20210829)', //升级必须，请勿修改
-  	PROJECT_NEWS_CATE: '学科成绩,竞赛成绩,音体美成绩,其他成绩',
+  	PROJECT_NEWS_CATE: '学科成绩,考级成绩,竞赛成绩,音体美成绩,其他成绩',
 
   	TEST_MODE: false,
 

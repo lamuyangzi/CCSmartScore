@@ -9,8 +9,7 @@ Page({
 	/**
 	 * 页面的初始数据
 	 */
-	data: {
-		isLoad: false,
+	data: { 
 		formNum: '',
 		formName: ''
 	},
@@ -24,37 +23,15 @@ Page({
 		if (!await PassportBiz.loginMustRegWin(this)) return;
 
 		if (!ccminiPageHelper.getId(this, options)) return;
-
-		this._loadDetail();
-
-	},
-
-	_loadDetail: async function () {
-		let id = this.data.id;
-		if (!id) return;
-
-		let params = {
-			id,
-		};
-		let opt = {
-			hint: false
-		};
-		let news = await ccminiCloudHelper.callCloudData('news/view', params, opt);
-		if (!news) {
+		
+		if (options && options.title) {
 			this.setData({
-				isLoad: null
+				title:decodeURIComponent(options.title)
 			})
-			return;
 		}
 
-		this.setData({
-			isLoad: true,
-			news,
-
-		});
-
-
 	},
+ 
 
 	/**
 	 * 生命周期函数--监听页面初次渲染完成

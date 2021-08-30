@@ -1,10 +1,7 @@
-<view wx:if="{{isLoad===null}}" class="margin-top load notexist text-l text-darkgreen color-skin1"></view>
-<view wx:if="{{isLoad===false}}" class="margin-top load loading text-l text-darkgreen color-skin1"></view>
-
-<view class="main main-info-add main-skin1" wx:if="{{isLogin&&isLoad}}">
+<view class="main main-info-add main-skin1" wx:if="{{isLogin}}">
 	<form bindsubmit="bindFormSubmit">
 		<view class="padding text-x text-xxl text-center">
-			《{{news.NEWS_TITLE}}》
+			《{{title}}》
 		</view>
 		<view class="form-box shadow">
 			<view class="form-group">

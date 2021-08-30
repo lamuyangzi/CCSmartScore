@@ -24,8 +24,9 @@
 					</image>
 				</view>
 				<view class="data text-cut">  
-					<text class="margin-right-s">{{item.NEWS_VIEW_CNT}}查看</text>  
-					<text>{{item.NEWS_ADD_TIME}}</text>
+					<text class="margin-right-s">{{item.NEWS_CATE}}</text>  
+					<text class="margin-right-s  text-black">{{item.NEWS_VIEW_CNT}}查看</text>  
+					<text class="text-black">{{item.NEWS_ADD_TIME}}</text>
 				</view>
 			</view> 
 

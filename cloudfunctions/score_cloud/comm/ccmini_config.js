@@ -35,11 +35,11 @@ module.exports = {
  
 	CCMINI_COLLECTION_NAME: 'setup|user|admin|news|grade',
 	CCMINI_SETUP_TITLE: 'CC通用成绩查询小程序',
-	CCMINI_SETUP_ABOUT: '   校园运动小程序简介！！！',
+	CCMINI_SETUP_ABOUT: '   CC通用成绩查询小程序简介！！！',
 
-	CCMINI_NEWS_TITLE: '校园运动小程序正式上线了！！',
-	CCMINI_NEWS_CATE: '公告通知',
-	CCMINI_NEWS_DESC: '经过大家的努力，我们的校园运动小程序正式上线了，希望大家多多光临，互勉！！',
-	CCMINI_NEWS_CONTENT: '经过大家的努力，我们的校园运动小程序正式上线了，希望大家多多光临，互勉！！',
+	CCMINI_NEWS_TITLE: '2021年上半年计算机考试成绩',
+	CCMINI_NEWS_CATE: '学科成绩',
+	CCMINI_NEWS_DESC: '自2018年3月起，考试结果将以等第形式公布，等第共分优秀、良好、及格、不及格四等',
+	CCMINI_NEWS_CONTENT: '自2018年3月起，考试结果将以等第形式公布，等第共分优秀、良好、及格、不及格四等其中90－100分为优秀、80－89分为良好、60－79分为及格、0－59分为不及格。不再显示具体分数。\n\r由于查询人数较多，可能会出现点击获取不到验证码，甚至打不开网页服务器崩溃的情况，希望各位考生能够耐心等待查询。',
 
 }

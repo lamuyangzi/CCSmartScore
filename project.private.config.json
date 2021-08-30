@@ -71,7 +71,7 @@
                     "pathName": "score/pages/news/grade_query",
                     "query": "id=cd045e75612b54ed088fa6393cb8c980",
                     "scene": null
-                },
+				}, 
                 {
                     "name": "1.99.0 关于我们",
                     "pathName": "score/pages/about/about",
@@ -130,6 +130,12 @@
                     "name": "1.8.10 后台管理-成绩列表",
                     "pathName": "score/pages/admin/news/admin_grade_list",
                     "query": "id=d9ea4cfd5f993c7500268db23de85ed1",
+                    "scene": null
+				},
+				{
+                    "name": "1.7.2 成绩数据格式Demo",
+                    "pathName": "score/pages/admin/news/admin_grade_demo",
+                    "query": "",
                     "scene": null
                 },
                 {

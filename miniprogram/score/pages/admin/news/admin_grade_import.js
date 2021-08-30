@@ -81,6 +81,21 @@ Page({
 		ccminiPageHelper.url(e, this);
 	},
 
+	bindDownTap:function(e) {
+		wx.openDocument({
+			filePath: '../../../images/data.xlsx',
+			success: function(res) {
+				console.log('打开文档成功')
+			},
+			fail: function(res) {
+				console.log(res);
+			},
+			complete: function(res) {
+				console.log(res);
+			}
+		}) 
+	},
+
 	/** 
 	 * 数据提交
 	 */

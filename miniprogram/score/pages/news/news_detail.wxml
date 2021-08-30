@@ -3,13 +3,11 @@
 
 <view wx:if="{{isLoad}}" class="main main-news-detail  main-skin1">
 
-	<view class="article-box">
+	<view class="article-box" style="marign-bottom:120rpx">
 		<!-- article content begin -->
 		<view class="article shadow">
 			<view class="title"><text selectable="true">《{{news.NEWS_TITLE}}》</text></view>
-			<view class="time">{{news.NEWS_ADD_TIME}} </view>
-
-			<view class="query-my shadow" bindtap="url" data-url="grade_query?id={{id}}"><text class="icon-search margin-right-s"></text>马上查询我的成绩</view>
+			<view class="time">{{news.NEWS_ADD_TIME}} </view> 
  
 			<view class="content">
 				<text selectable="true" class="text-content">{{news.NEWS_CONTENT}}</text>
@@ -34,3 +32,5 @@
 
 
 </view>
+
+<view class="query-my" bindtap="url" data-url="grade_query?title={{title}}&id={{id}}"><text class="icon-search margin-right-s"></text>马上查询我的成绩</view>
